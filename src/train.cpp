@@ -2,8 +2,8 @@
 
 #include "../include/train.h"
 #include <random>
-#include <cstdlib> // для функций rand() и srand()
-#include <ctime> // для функции time()
+#include <cstdlib>  // для функций rand() и srand()
+#include <ctime>  // для функции time()
 
 void Train::addCage(Cage * newCage) {
   std::minstd_rand simple_rand;

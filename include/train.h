@@ -19,8 +19,8 @@ class Cage {
 
 class Train {
  private:
-  Cage* begin; //  указатель на первый вагон
-  Cage* end;  //  указатель на последний вагон
+  Cage* begin;  // указатель на первый вагон
+  Cage* end;  // указатель на последний вагон
   int size;
  public:
   Train(): begin(nullptr), end(nullptr), size(0) {}
