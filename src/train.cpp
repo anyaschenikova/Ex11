@@ -1,6 +1,6 @@
-// Copyright 2021 Schenikova 
+// Copyright 2021 Schenikova
 
-#include "train.h"
+#include "../include/train.h"
 #include <random>
 #include <cstdlib> // для функций rand() и srand()
 #include <ctime> // для функции time()
@@ -56,5 +56,5 @@ int Train::counter() {
     }
   }
   return size;
-} 
+}
 

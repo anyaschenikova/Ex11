@@ -1,11 +1,11 @@
-// Copyright 2021
+// Copyright 2021 Schenikova
 #include <iostream>
 #include <string>
 #include <random>
-#include <cstdlib> // для функций rand() и srand()
-#include <ctime> // для функции time()
+#include <cstdlib>
+#include <ctime>
 
-#include "train.h"
+#include "../include/train.h"
 
 int main() {
   Train* train = new Train;
