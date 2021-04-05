@@ -18,7 +18,11 @@ TEST(Train, test2) {
     Cage* cage = new Cage;
     train->addCage(cage);
   }
-  EXPECT_EQ(train->counter(), 5);
+  for (int i = 0; i < 5; i++) {
+    Cage* cage = new Cage;
+    train->addCage(cage);
+  }
+  EXPECT_EQ(train->counter(), 10);
 }
 
 TEST(Train, test3) {
